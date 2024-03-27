@@ -31,13 +31,18 @@ class LikeMindsCallback implements LMSDKCallback {
     // TODO: implement logoutCallback
   }
 
-  @override
-  void profileRouteCallback({required String lmUserId}) {
-    print("LM User ID caught in callback : $lmUserId");
-  }
+  // @override
+  // void profileRouteCallback({required String lmUserId}) {
+  //   print("LM User ID caught in callback : $lmUserId");
+  // }
 
   @override
   void routeToCompanyCallback({required String companyId}) {
     print("Company Id caught in callback: $companyId");
+  }
+
+  @override
+  void profileRouteCallback({required String uuid}) {
+    // TODO: implement profileRouteCallback
   }
 }

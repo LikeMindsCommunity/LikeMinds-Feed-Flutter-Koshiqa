@@ -12,10 +12,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  feed_sx:
+  likeminds_feed_flutter_core: 1.1.0
+  likeminds_feed_flutter_ui:
+  likeminds_feed:
+  likeminds_feed_flutter_koshiqa:
     path: ../
   cupertino_icons: ^1.0.2
-  device_info_plus: ^9.1.0
+  device_info_plus: ^8.2.2
   firebase_core: ^2.4.1
   firebase_messaging: ^14.2.1
   connectivity_plus: ^3.0.4
@@ -26,6 +29,7 @@ dependencies:
 
 dependency_override:
   sliver_tools: 0.1.12
+  extended_text_field: 14.0.0
 
 dev_dependencies:
   flutter_test:

@@ -42,3 +42,7 @@ example/.flutter-plugins-dependencies
 tests.output
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# FVM Version Cache
+.fvm/
+.fvmrc
